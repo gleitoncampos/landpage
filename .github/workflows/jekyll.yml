@@ -2,9 +2,16 @@ name: Jekyll site CI
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    paths:
+      - "_config.yml"
+      - "index.html"
+      - "_includes/"
+      - "_data/"
+      - "_layout/"
+      - "_sass/"
+      - "css/"
+      - "images/"
+      - "js/"
   workflow_dispatch:
 
 env:
