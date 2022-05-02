@@ -1,0 +1,13 @@
+version: '3' # specify docker-compose version
+
+# Define the services/containers to be run
+services:
+  jekyllbuild:
+    build:
+      context: .
+      args:
+        build_command: "jekyll serve --host 0.0.0.0"
+    volumes:
+      - ".:/srv/jekyll"
+    ports:
+      - 80:4000

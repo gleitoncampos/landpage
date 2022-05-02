@@ -1,0 +1,11 @@
+# projects section data
+- name: Exemplo de ambiente docker em multibranch
+  gh_user: gleitoncampos
+  repo: multibranch-dockercompose
+  img: https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png
+
+- name: Automatização de criação de usuarios para uso em SSH em servers Ubuntu-like
+  gh_user: gleitoncampos
+  repo: automatiza-ssh
+  img: https://avatars3.githubusercontent.com/u/1507452?v=3&s=200
+

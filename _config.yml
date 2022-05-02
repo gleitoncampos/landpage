@@ -1,0 +1,36 @@
+# Site settings
+title: Gleiton Campos
+description: 'Personal Land page'
+url: 'https://gleitoncampos.cf'
+baseurl: ''
+profilepic: '/images/eu.jpg'
+bkimage: '/images/bk1.png'
+google_analytics: UA-XXXXXX-X
+font_awesome: '5e8b9e2687.js'
+
+author:
+  name: 'Gleiton Campos'
+  email: gleiton.ti@gmail.com
+#  twitter_username: gleitoncampos
+#  facebook_username: joshgerdes
+  github_username:  gleitoncampos
+  linkedin_username:  gleiton-campos
+#  meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ['README.md', 'screenshot-overview.png', 'Dockerfile', 'docker-compose*.yaml', 'Gemfile']
