@@ -1,5 +1,5 @@
 # projects section data
-- name: Este site que você vê
+- name: Landpage simples com Jekyll
   gh_user: gleitoncampos
   repo: landpage
   img: https://raw.githubusercontent.com/gleitoncampos/landpage/main/screenshot-overview.png
