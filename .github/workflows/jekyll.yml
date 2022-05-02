@@ -5,13 +5,13 @@ on:
     paths:
       - "_config.yml"
       - "index.html"
-      - "_includes/"
-      - "_data/"
-      - "_layout/"
-      - "_sass/"
-      - "css/"
-      - "images/"
-      - "js/"
+      - "_includes/*"
+      - "_data/*"
+      - "_layout/*"
+      - "_sass/*"
+      - "css/*"
+      - "images/*"
+      - "js/*"
   workflow_dispatch:
 
 env:
