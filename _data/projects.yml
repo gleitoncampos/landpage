@@ -4,10 +4,10 @@
   repo: landpage
   img: https://raw.githubusercontent.com/gleitoncampos/landpage/main/screenshot-overview.png
   
-- name: Exemplo de ambiente docker em multibranch
+- name: Terraform - Deploy de Wordpress com DB em AWS
   gh_user: gleitoncampos
-  repo: multibranch-dockercompose
-  img: https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png
+  repo: ct-devops-iac-desafio02
+  img: https://www.ambient-it.net/wp-content/uploads/2019/08/og-image-8b3e4f7d.png
 
 - name: Automatização de criação de usuarios para uso em SSH em servers Ubuntu-like
   gh_user: gleitoncampos
